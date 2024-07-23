@@ -531,12 +531,24 @@ span{
     }
 }
 
+@media(max-width: 412px) {
+    .home-img img {
+        width: 75vw;
+    }
+    .about {
+        height: 400vw;
+    }
+    .about-img img {
+        width: 40vw;
+    }
+}
+
 @media(max-width: 365px) {
     .home-img img {
         width: 75vw;
     }
     .about {
-        height: 420vw;
+        height: 440vw;
     }
     .about-img img {
         width: 40vw;
