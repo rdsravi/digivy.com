@@ -496,7 +496,19 @@ span{
         width: 75vw;
     }
     .about {
-        height: 320vw;
+        height: 310vw;
+    }
+}
+
+@media(max-width: 515px) {
+    .portfolio-container{
+        grid-template-columns: 1fr;
+    }
+    .home-img img {
+        width: 75vw;
+    }
+    .about {
+        height: 340vw;
     }
 }
 
@@ -512,7 +524,7 @@ span{
         width: 75vw;
     }
     .about {
-        height: 350vw;
+        height: 360vw;
     }
     .about-img img {
         width: 40vw;
