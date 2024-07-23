@@ -62,14 +62,14 @@ const typed = new Typed('.multi-text', {
 
 /*============================ Firebase JQuery ============================*/
 const firebaseConfig = {
-    apiKey: "AIzaSyD4bpYPgp4O4XunO5-dshy4S8fHXtUgABk",
-    authDomain: "raviprakash-7b08f.firebaseapp.com",
-    databaseURL: "https://raviprakash-7b08f-default-rtdb.firebaseio.com",
-    projectId: "raviprakash-7b08f",
-    storageBucket: "raviprakash-7b08f.appspot.com",
-    messagingSenderId: "438454313648",
-    appId: "1:438454313648:web:b930970d593ed64bef1175",
-    measurementId: "G-YRPD6TY5MS"
+    apiKey: "AIzaSyB6Dmd9h1ps1lymDOq4qy9WubiyAf6cFQs",
+    authDomain: "digivy-f4f1f.firebaseapp.com",
+    databaseURL: "https://digivy-f4f1f-default-rtdb.firebaseio.com/",
+    projectId: "digivy-f4f1f",
+    storageBucket: "digivy-f4f1f.appspot.com",
+    messagingSenderId: "3827067294",
+    appId: "1:3827067294:web:a6320212eddb1d45508e8f",
+    measurementId: "G-GX6QT2LRVP"
 };
 
 // Initialize Firebase
