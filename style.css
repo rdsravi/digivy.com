@@ -189,8 +189,10 @@ span{
 }
 .about .founders {
     display: flex;
-    gap: 4rem;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
 
 
@@ -446,7 +448,7 @@ span{
         margin: 3rem 0;
     }
     .home{
-        height: 210vw;
+        height: 180vw;
         flex-direction: column;
     }
     .home-content h3 {
@@ -467,7 +469,7 @@ span{
         flex-direction: column-reverse;
     }*/
     .about {
-        height: 230vw;
+        height: 270vw;
     }
     .about-img img {
         width: 93vw;
@@ -493,6 +495,9 @@ span{
     .home-img img {
         width: 75vw;
     }
+    .about {
+        height: 320vw;
+    }
 }
 
 @media(max-width: 450px) {
@@ -506,6 +511,9 @@ span{
     .home-img img {
         width: 75vw;
     }
+    .about {
+        height: 350vw;
+    }
     .about-img img {
         width: 40vw;
     }
@@ -514,6 +522,9 @@ span{
 @media(max-width: 365px) {
     .home-img img {
         width: 75vw;
+    }
+    .about {
+        height: 420vw;
     }
     .about-img img {
         width: 40vw;
@@ -533,5 +544,8 @@ span{
     }
     .about-img img {
         width: 20vw;
+    }
+    .about {
+        height: 480vw;
     }
 }
