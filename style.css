@@ -12,7 +12,7 @@
 }
 
 :root{
-    --bg-color: #e3eeee;
+    --bg-color: #e1f5f5;
     --second-bg-color: #ffffff;
     --text-color: #000000;
     --main-color: rgb(41, 124, 219);
@@ -39,7 +39,7 @@ section {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background:var(--icon-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
